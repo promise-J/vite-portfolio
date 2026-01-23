@@ -30,7 +30,7 @@ export default function Contact() {
           <a href="https://www.linkedin.com/in/promise-chiemela/" target="_blank" className="text-gray-400 hover:text-cyan-400 transition">
             LinkedIn
           </a>
-          <a href="https://twitter.com/yourusername" target="_blank" className="text-gray-400 hover:text-cyan-400 transition">
+          <a href="https://x.com/Promise94353263" target="_blank" className="text-gray-400 hover:text-cyan-400 transition">
             Twitter
           </a>
         </div>
