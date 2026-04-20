@@ -1,23 +1,19 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Experience from "./components/Experience";
-import Content from "./components/Content";
-import Contact from "./components/Contact";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home"; // your landing page
+import Blog from "./pages/Blog";
 
-export default function App() {
+function App() {
   return (
-    <div className="bg-gray-950 text-white min-h-screen">
-      <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Experience />
-      <Content />
-      <Contact />
-    </div>
+    <Router>
+      <Routes>
+        {/* Landing page */}
+        <Route path="/" element={<Home />} />
+
+        {/* Main app */}
+        <Route path="/blog" element={<Blog />} />
+      </Routes>
+    </Router>
   );
 }
+
+export default App;

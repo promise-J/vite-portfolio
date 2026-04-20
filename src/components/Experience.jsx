@@ -108,7 +108,7 @@ export default function Experience() {
         <div className="relative border-l border-white/10 space-y-10">
           {experiences.map((exp, index) => (
             <div key={index} className="relative pl-6 md:pl-10 group">
-              <span className="absolute -left-[7px] top-2 h-3 w-3 rounded-full bg-cyan-400 shadow-[0_0_0_6px_rgba(34,211,238,0.15)] group-hover:scale-125 transition" />
+              <span className="absolute -left-1.75 top-2 h-3 w-3 rounded-full bg-cyan-400 shadow-[0_0_0_6px_rgba(34,211,238,0.15)] group-hover:scale-125 transition" />
 
               <div className="rounded-2xl border border-white/10 bg-gray-900/70 p-6 md:p-8 hover:-translate-y-1 hover:shadow-lg transition duration-300">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
