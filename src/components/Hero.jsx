@@ -14,12 +14,12 @@ export default function Hero() {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="text-4xl md:text-6xl font-bold leading-tight gold-shimmer"
+        className="text-4xl md:text-6xl font-bold leading-tight"
       >
         Hi, I’m{" "}
         <span className="relative inline-block text-cyan-400">
           Promise Johnson
-          <span className="absolute left-0 -bottom-1 h-0.5 w-full bg-cyan-400/40" />
+          {/* <span className="absolute left-0 -bottom-1 h-0.5 w-full bg-cyan-400/40" /> */}
         </span>
       </motion.h1>
 
@@ -30,7 +30,7 @@ export default function Hero() {
         transition={{ delay: 0.15, duration: 0.7 }}
         className="mt-6 max-w-2xl text-base md:text-lg text-gray-400"
       >
-        Full-stack Engineer • Backend Specialist • Tech Content Creator  
+        Full-stack Engineer • Backend Engineer • AI Engineer
         <br className="hidden sm:block" />
         Building scalable systems and teaching developers through code & humor.
       </motion.p>

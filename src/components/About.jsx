@@ -20,13 +20,13 @@ export default function About() {
           {/* Right: Detail */}
           <div className="space-y-4 text-gray-400 leading-relaxed">
             <p>
-              I specialize in <strong className="text-gray-300">Node.js, TypeScript, Go</strong> and work
-              extensively with <strong className="text-gray-300">MongoDB, Redis, RabbitMQ</strong>, and
+              I specialize in <strong className="text-gray-300">Node.js, React, TypeScript and problem solving.</strong> I work
+              extensively with <strong className="text-gray-300">MongoDB, Redis, RabbitMQ, PostgresSQL, Docker</strong>, and
               distributed microservice architectures.
             </p>
   
             <p>
-              I’ve built production-grade systems including Uber-like platforms,
+              I’ve built production-grade systems including Fitness application (Muta Fit) platforms,
               payment ledgers, API gateways, and real-time chat applications —
               with a strong emphasis on system design, reliability, and performance.
             </p>

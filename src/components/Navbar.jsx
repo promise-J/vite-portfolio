@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { motion } from "framer-motion";
 
-const navItems = ["About", "Skills", "Projects", "Blog", "Contact"];
+const navItems = [{title: "About", link: "#about"}, {title: "Skills", link: "#skills"}, {title: "Projects", link: "#projects"}, {title: "Blog", link: "/blog"}, {title: "Contact", link: "#contact"}];
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -12,7 +12,7 @@ export default function Navbar() {
   useEffect(() => {
     const handleScroll = () => {
       navItems.forEach(item => {
-        const section = document.getElementById(item.toLowerCase());
+        const section = document.getElementById(item.title.toLowerCase());
         if (section) {
           const rect = section.getBoundingClientRect();
           if (rect.top <= 100 && rect.bottom >= 100) {
@@ -34,7 +34,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
         {/* Logo */}
-        <a href="#" className="text-xl font-bold text-cyan-400 gold-shimmer">
+        <a href="/" className="text-xl font-bold text-cyan-400">
           Promise<span className="text-white">.dev</span>
         </a>
 
@@ -43,12 +43,12 @@ export default function Navbar() {
           {navItems.map(item => (
             <a
               key={item}
-              href={`#${item.toLowerCase()}`}
+              href={`${item.link.toLowerCase()}`}
               className={`transition hover:text-cyan-400 ${
                 active === item ? "text-cyan-400" : "text-gray-300"
               }`}
             >
-              {item}
+              {item.title}
             </a>
           ))}
         </div>
@@ -73,7 +73,7 @@ export default function Navbar() {
           {navItems.map(item => (
             <a
               key={item}
-              href={`#${item.toLowerCase()}`}
+              href={`${item.toLowerCase()}`}
               onClick={() => setOpen(false)}
               className={`block py-3 border-b border-white/10 ${
                 active === item ? "text-cyan-400" : "text-gray-300"
