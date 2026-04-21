@@ -73,7 +73,7 @@ export default function Navbar() {
           {navItems.map(item => (
             <a
               key={item}
-              href={`${item.toLowerCase()}`}
+              href={`${item.link.toLowerCase()}`}
               onClick={() => setOpen(false)}
               className={`block py-3 border-b border-white/10 ${
                 active === item ? "text-cyan-400" : "text-gray-300"
