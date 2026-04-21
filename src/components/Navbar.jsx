@@ -42,10 +42,10 @@ export default function Navbar() {
         <div className="hidden md:flex space-x-8">
           {navItems.map(item => (
             <a
-              key={item}
+              key={item.title}
               href={`${item.link.toLowerCase()}`}
               className={`transition hover:text-cyan-400 ${
-                active === item ? "text-cyan-400" : "text-gray-300"
+                active === item.title ? "text-cyan-400" : "text-gray-300"
               }`}
             >
               {item.title}
@@ -72,14 +72,14 @@ export default function Navbar() {
         >
           {navItems.map(item => (
             <a
-              key={item}
+              key={item.title}
               href={`${item.link.toLowerCase()}`}
               onClick={() => setOpen(false)}
               className={`block py-3 border-b border-white/10 ${
-                active === item ? "text-cyan-400" : "text-gray-300"
+                active === item.title ? "text-cyan-400" : "text-gray-300"
               }`}
             >
-              {item}
+              {item.title}
             </a>
           ))}
         </motion.div>
