@@ -12,7 +12,7 @@ export default function About() {
               About Me
             </h2>
             <p className="text-lg text-gray-300 leading-relaxed">
-              I’m a <span className="text-white font-medium">Backend Engineer</span> focused on
+              I’m a <span className="text-white font-medium">Software Engineer (BE Heavy)</span> focused on
               building scalable, secure, and high-performance systems that power real-world products.
             </p>
           </div>
