@@ -7,9 +7,9 @@ const projects = [
     featured: true,
   },
   {
-    title: "Growe",
-    desc: "Savings and investment platform with rule-based financial planning (similar to PiggyVest).",
-    live: "https://grow-backend-app.onrender.com/api-docs",
+    title: "Chuvi Laundry",
+    desc: "A platform you can easily book orders for your laundries, manage your orders and where admin have specific features available to them",
+    live: "https://www.chuvilaundry.com",
     github: "",
     featured: true,
   },
