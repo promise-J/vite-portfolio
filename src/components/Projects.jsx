@@ -20,11 +20,18 @@ const projects = [
     github: "",
     featured: true,
   },
+  // {
+  //   title: "Plum Tactical Board",
+  //   desc: "Interactive football tactics board with drag-and-drop players, drawing tools, and team analysis features.",
+  //   live: "https://plum-tactical-board-fvzf.vercel.app/ ",
+  //   github: "https://github.com/promise-J/plum-tactical-board",
+  //   featured: true,
+  // },
   {
-    title: "Plum Tactical Board",
-    desc: "Interactive football tactics board with drag-and-drop players, drawing tools, and team analysis features.",
-    live: "https://plum-tactical-board-fvzf.vercel.app/ ",
-    github: "https://github.com/promise-J/plum-tactical-board",
+    title: "P Collins World",
+    desc: "Where savings, real estate and market place meet.",
+    live: "https://pcollins-world.vercel.app/role-selection?mode=login",
+    github: "",
     featured: true,
   },
 ];
