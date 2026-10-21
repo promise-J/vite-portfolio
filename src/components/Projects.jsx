@@ -8,7 +8,7 @@ const projects = [
   },
   {
     title: "Chuvi Laundry",
-    desc: "A platform you can easily book orders for your laundries, manage your orders and where admin have specific features available to them",
+    desc: "A platform to book laundry services, track orders, and manage laundry operations with dedicated admin features.",
     live: "https://www.chuvilaundry.com",
     github: "",
     featured: true,
@@ -20,18 +20,11 @@ const projects = [
     github: "",
     featured: true,
   },
-  // {
-  //   title: "Plum Tactical Board",
-  //   desc: "Interactive football tactics board with drag-and-drop players, drawing tools, and team analysis features.",
-  //   live: "https://plum-tactical-board-fvzf.vercel.app/ ",
-  //   github: "https://github.com/promise-J/plum-tactical-board",
-  //   featured: true,
-  // },
   {
-    title: "P Collins World",
-    desc: "Where savings, real estate and market place meet.",
-    live: "https://pcollins-world.vercel.app/role-selection?mode=login",
-    github: "",
+    title: "Life for Jesus: The Journey",
+    desc: "An immersive 2D Christian life simulation where players explore the world, build careers, make life choices, study Scripture, pray, share their faith, and navigate challenges while growing in their Christian journey.",
+    live: "https://life-for-jesus.onrender.com/", // Replace with the deployed game URL when available.
+    github: "https://github.com/promise-J/life-for-jesus", // Add the GitHub repository when available.
     featured: true,
   },
 ];
